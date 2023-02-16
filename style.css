@@ -93,6 +93,95 @@ body {
 
 }
 
+.email__section {
+  margin-top: 50px;
+}
+
+.email__section__heading {
+  padding-left: 12px;
+  padding-bottom: 16px;
+  color: #1d3557;
+  font-weight: 900;
+}
+
+.email__section__div {
+  display: flex;
+  grid-gap: 16px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.email__section__form__fill__button {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #e63946;
+  background-color: #fcedfo;
+}
+
+.quote__section {
+  margin-top: 28px;
+  position: relative;
+}
+
+.quote__section__image {
+  width: 100%;
+}
+
+.quote__section__image__pic {
+  width: 100%;
+  border-radius: 8px;
+  z-index: -1;
+  height: 25%;
+}
+
+.quote__section__quote {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%
+  z-index: +1;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 48px;
+}
+
+.footer {
+  background-image: linear-gradient(to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 2px;
+}
+
+.footer__image {
+  width: 300px;
+  height: 201px;
+  padding-top: 30px;
+}
+
+.footer__image__pic {
+  width: 100%;
+
+}
+
+.footer__list {
+  padding: 0px 40px;
+  padding-bottom: 100px;
+
+}
+
+.footer__list__items {
+  color: #fff;
+}
+
 @media (min-width : 768px){
   .navbar {
     justify-content: space-between;
@@ -147,6 +236,62 @@ body {
 
 
 }
+
+.email__section {
+  margin-top: 80px;
+  padding: 120px;
+}
+
+.email__section__heading {
+  margin-left: 55px;
+  padding-left: 25px;
+  padding-bottom: 4px;
+  font-size: 30px;
+  color: #1d3557;
+  font-weight: 900;
+}
+
+.email__section__div {
+  display: flex;
+
+
+  align-items: center;
+  grid-gap: 4px;
+
+}
+
+.email__section__button {
+  margin-left: -40px;
+}
+
+.email__section__form__fill__button {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #e63946;
+  background-color: #fcedfo;
+  padding-right: 24px;
+}
+
+.quote__section__quote {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%
+  z-index: +1;
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
 
 }
 
@@ -205,6 +350,54 @@ body {
 
 
   }
+
+  .email__section__div {
+    display: flex;
+
+
+    align-items: center;
+    grid-gap: 2px;
+
+  }
+
+  .email__section {
+    margin-top: 80px;
+    padding: 20px 200px;
+
+  }
+
+  .quote__section {
+    width: 1110px;
+    height: 300px;
+    background-color: #0a4065;
+  }
+
+  .quote__section__image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .quote__section__image__pic {
+    width: 100%;
+    border-radius: 8px;
+    z-index: -1;
+    height: 100%;
+  }
+
+  .quote__section__quote {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+    z-index: +1;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 60px;
+  }
+
+
 }
 
 /* container is a bootstrap class that provides the entire padding and margin throughout the webpage */
